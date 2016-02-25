@@ -24,5 +24,4 @@ object Applications extends Controller {
     Ok(views.html.signup(signUpForm))
   }
 
-  def
 }
