@@ -25,14 +25,14 @@ import play.api.Play.current
        case firstname~lastname~phone1~phone2~email => Users(firstname,lastname,phone1,phone2,email)
      }
    }
-
+/*
   def showSignUp:List[Users] = DB.withConnection{ implicit a=>
       SQL(
          """ Select *
              from SignUp
          """
       ).as(SignUpForm)
-   }
+   }*/
 
  }
 
