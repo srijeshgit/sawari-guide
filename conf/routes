@@ -1,0 +1,3 @@
+GET /signup controllers.Applications.signForm
+
+GET     /assets/*file               controllers.Assets.at(path="/public", file)
