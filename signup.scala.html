@@ -1,0 +1,16 @@
+@import models._
+    @(signUpForm:Form[Users])
+    @import helper._
+    @main("Users"){
+         <div align="center">
+        <h2> Sign Up </h2>
+        @form(routes.Applications.signForm()){
+            @inputText(signUpForm("First Name"))
+            @inputText(signUpForm("Last Name"))
+            @inputText(signUpForm("Phone 1"))
+            @inputText(signUpForm("Phone 2"))
+            @inputText(signUpForm("Email Address"))
+            <input type="submit" value="Sign Up">
+        }
+        </div>
+    }
